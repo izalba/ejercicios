@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Integración de estilos</title>
-    <link rel="stylesheet" href="style_ej_3_1">
-    <style>
-      #paragraph3 {
-        font-family: 'Segoe UI', sans-serif;
-        font-size: 20px;
-        color: #333;
-      }
-    </style>
+    <link rel="stylesheet" href="style_ej_3_1.css">
   </head>
   <body>
-    <h1>Integración de estilos</h1>
-    <p id="paragraph1">En este ejercicio estamos viendo cómo podemos integrar los estilos de distintas formas. Este párrafo tiene los estilos definidos en un archivo externo.</p>
-    <p style="font-family: 'Segoe UI', sans-serif; font-size: 20px; color: #333;">Mientras que este los tiene definidos como atributos de la etiqueta HTML.</p>
-    <p id="paragraph3">Y este último, dentro de la etiqueta head del HTML.</p>
+    <div class="title">Integración de estilos</div>
+    <div class="container">
+      <p class="paragraph-1">En este ejercicio estamos viendo cómo podemos integrar los estilos de distintas formas. Este párrafo tiene los estilos definidos en un archivo externo.</p>
+      <p class="paragraph-2">Mientras que este los tiene definidos como atributos de la etiqueta HTML.</p>
+      <p class="paragraph-3">Y este último, dentro de la etiqueta head del HTML.</p>
+    </div>
   </body>
 </html>
+
