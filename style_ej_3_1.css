@@ -7,19 +7,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .title {
   font-size: 2rem;
-  text-align: start;
+  text-align: left;
   margin-bottom: 20px;
+  border: 2px
 }
 
 p {
   text-align: center;
-  margin-bottom: 20px;
-  width: 50%;
+  width: 30%;
 }
 
 .paragraph-1 {
@@ -31,13 +31,14 @@ p {
 .paragraph-2 {
   color: white;
   background-color: blue;
-  font-size: 13px;
+  font-size: 20px;
   border: 2px solid transparent;
 }
 
 .paragraph-3 {
   color: black;
-  background-color: #00b38f;
+  background-color: #32bba4;
   font-size: 8px;
   border: 2px solid transparent;
+  margin-top: 40px;
 }
