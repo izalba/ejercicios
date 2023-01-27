@@ -8,4 +8,4 @@ function sumaPares(numeros) {
   return suma;
 }
 
-console.log(sumaPares([1, 2, 3, 4, 14]));
+console.log(sumaPares([1, 2, 6, 4, 14]));
