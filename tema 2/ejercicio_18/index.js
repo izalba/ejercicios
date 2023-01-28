@@ -1,7 +1,7 @@
 
 const btnSave = document.querySelector("button");
 btnSave.addEventListener("click", function(){
-    alert("Guardado exitoso!");
+    alert("Guardado :)");
 });
 
 
