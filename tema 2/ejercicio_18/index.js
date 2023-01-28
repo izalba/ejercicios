@@ -1,10 +1,10 @@
-// Evento para el botón de guardar
+
 const btnSave = document.querySelector("button");
 btnSave.addEventListener("click", function(){
     alert("Guardado exitoso!");
 });
 
-// Evento para el input de nombre
+
 const inputName = document.querySelector("label + input");
 inputName.addEventListener("focus", function(){
     inputName.style.backgroundColor = "yellow";
